@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Servo New Tab Mechanism",
+	"version": "0.1dev",
+	"description": "The fastest tab management system you've ever used.",
+
+	"author": "Christian Kaindl",
+	"homepage_url": "https://github.com/christiankaindl/Servo-New-Tab-Mechanism",
+
+	"omnibox": {
+		"keyword": "tab"
+	},
+	"permissions": ["tabs", "contextualIdentities"],
+	"background": {
+		"scripts": ["omnibox.js"]
+	}
+}
